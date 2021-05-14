@@ -1,0 +1,21 @@
+.change {
+    width: 25px;
+}
+
+a.down::after {
+    content: ' ▼ ';
+}
+
+a.up::after {
+    content: ' ▲ ';
+}
+
+th > div {
+	padding: .375rem .75rem;
+	font-weight: 400;
+}
+
+img.checkmark {
+	width: 15px;
+	margin-left: 10px;
+}
